@@ -18,7 +18,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Ahupua`a">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Ahupua`a">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hawaii_historic_land_divisions_Features_any20160307205157153" name="hawaii_historic_land_divisions Features any">
         <customproperties/>
@@ -30,29 +30,29 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Eric's field system kmz files">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Eric's field system kmz files">
       <customproperties/>
-      <layer-tree-group expanded="0" checked="Qt::Checked" name="Lapakahi">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Lapakahi">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="lapakahi_dsa_final_trails_level_1_any20160307204511191" name="lapakahi_dsa_final trails_level_1 any">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lapakahi_dsa_final_trails_level_1_any20160307204511191" name="lapakahi_dsa_final trails_level_1 any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="lapakahi_dsa_final_trails_level_3_any20160307204511229" name="lapakahi_dsa_final trails_level_3 any">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lapakahi_dsa_final_trails_level_3_any20160307204511229" name="lapakahi_dsa_final trails_level_3 any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="lapakahi_dsa_final_trails_level_5_any20160307204511263" name="lapakahi_dsa_final trails_level_5 any">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lapakahi_dsa_final_trails_level_5_any20160307204511263" name="lapakahi_dsa_final trails_level_5 any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="lapakahi_dsa_final_walls_level_0_any20160307204511297" name="lapakahi_dsa_final walls_level_0 any">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lapakahi_dsa_final_walls_level_0_any20160307204511297" name="lapakahi_dsa_final walls_level_0 any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="lapakahi_dsa_final_walls_level_2_any20160307204511331" name="lapakahi_dsa_final walls_level_2 any">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lapakahi_dsa_final_walls_level_2_any20160307204511331" name="lapakahi_dsa_final walls_level_2 any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="lapakahi_dsa_final_walls_level_4_any20160307204511365" name="lapakahi_dsa_final walls_level_4 any">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lapakahi_dsa_final_walls_level_4_any20160307204511365" name="lapakahi_dsa_final walls_level_4 any">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="lapakahi_dsa_final_walls_level_6_any20160307204511399" name="lapakahi_dsa_final walls_level_6 any">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="lapakahi_dsa_final_walls_level_6_any20160307204511399" name="lapakahi_dsa_final walls_level_6 any">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -122,10 +122,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17346529.11952714249491692</xmin>
-      <ymin>2287706.16794720850884914</ymin>
-      <xmax>-17345988.67001117393374443</xmax>
-      <ymax>2288079.7596142552793026</ymax>
+      <xmin>-17346539.60071434080600739</xmin>
+      <ymin>2287715.71235719881951809</ymin>
+      <xmax>-17346184.13971251994371414</xmax>
+      <ymax>2287964.7734685642644763</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -243,7 +243,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Ahupua`a">
+    <legendgroup open="false" checked="Qt::Unchecked" name="Ahupua`a">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hawaii_historic_land_divisions Features any" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Features_any20160307205157153" visible="0"/>
@@ -260,41 +260,41 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="Eric's field system kmz files">
-      <legendgroup open="false" checked="Qt::Checked" name="Lapakahi">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lapakahi_dsa_final trails_level_1 any" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Eric's field system kmz files">
+      <legendgroup open="false" checked="Qt::Unchecked" name="Lapakahi">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lapakahi_dsa_final trails_level_1 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_trails_level_1_any20160307204511191" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_trails_level_1_any20160307204511191" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lapakahi_dsa_final trails_level_3 any" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lapakahi_dsa_final trails_level_3 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_trails_level_3_any20160307204511229" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_trails_level_3_any20160307204511229" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lapakahi_dsa_final trails_level_5 any" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lapakahi_dsa_final trails_level_5 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_trails_level_5_any20160307204511263" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_trails_level_5_any20160307204511263" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lapakahi_dsa_final walls_level_0 any" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lapakahi_dsa_final walls_level_0 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_walls_level_0_any20160307204511297" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_walls_level_0_any20160307204511297" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lapakahi_dsa_final walls_level_2 any" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lapakahi_dsa_final walls_level_2 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_walls_level_2_any20160307204511331" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_walls_level_2_any20160307204511331" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lapakahi_dsa_final walls_level_4 any" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lapakahi_dsa_final walls_level_4 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_walls_level_4_any20160307204511365" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_walls_level_4_any20160307204511365" visible="0"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="lapakahi_dsa_final walls_level_6 any" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lapakahi_dsa_final walls_level_6 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_walls_level_6_any20160307204511399" visible="1"/>
+            <legendlayerfile isInOverview="0" layerid="lapakahi_dsa_final_walls_level_6_any20160307204511399" visible="0"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
