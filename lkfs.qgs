@@ -122,10 +122,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17346333.36597705632448196</xmin>
-      <ymin>2287928.16159812733530998</ymin>
-      <xmax>-17346061.23269619792699814</xmax>
-      <ymax>2288550.81437653210014105</ymax>
+      <xmin>-17344723.68620585650205612</xmin>
+      <ymin>2288866.6098463973030448</ymin>
+      <xmax>-17344336.33620546013116837</xmax>
+      <ymax>2289072.78000789973884821</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -6557,8 +6557,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="label"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
