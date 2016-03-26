@@ -25,7 +25,7 @@
 *url-default*,
 *legend*,
 *assume-correlations-true*,
-*use-fast-matrix*,
+*use-fast-matrix*,t
 *style-edge-sequence*,solid
 *style-node-sequence*,filled
 *style-node-chronology*,
