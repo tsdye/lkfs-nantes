@@ -8,10 +8,10 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="relations20160307213557621" name="relations">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="trails20160307213407061" name="trails">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="trails20160307213407061" name="trails">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="walls20160307213445620" name="walls">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="walls20160307213445620" name="walls">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="study_area20160318093015829" name="study_area">
@@ -122,10 +122,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17346763.17171091958880424</xmin>
-      <ymin>2286366.86182510014623404</ymin>
-      <xmax>-17342373.73420644924044609</xmax>
-      <ymax>2289265.37224472034722567</ymax>
+      <xmin>-17346269.85562068223953247</xmin>
+      <ymin>2287583.81539885560050607</ymin>
+      <xmax>-17345892.6832028329372406</xmax>
+      <ymax>2287832.8765102201141417</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -227,14 +227,14 @@
           <legendlayerfile isInOverview="0" layerid="relations20160307213557621" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="trails" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="trails" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="trails20160307213407061" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="trails20160307213407061" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="walls" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="walls" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="walls20160307213445620" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="walls20160307213445620" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="study_area" showFeatureCount="0">
@@ -6557,8 +6557,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="label"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
