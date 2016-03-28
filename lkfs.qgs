@@ -101,7 +101,7 @@
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Raster images">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_hs20160314173321931" name="output.tin.hs">
@@ -122,10 +122,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17344930.83322806283831596</xmin>
-      <ymin>2288281.33751377230510116</ymin>
-      <xmax>-17344546.44293283298611641</xmax>
-      <ymax>2288530.39862513775005937</ymax>
+      <xmin>-17344876.55918660014867783</xmin>
+      <ymin>2288224.59888179413974285</ymin>
+      <xmax>-17344682.88418640196323395</xmax>
+      <ymax>2288339.78672845009714365</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -361,8 +361,8 @@
       </legendlayer>
     </legendgroup>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Raster images">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Zones of pre European contact intensive agriculture V1 (for distribution)" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Zones of pre European contact intensive agriculture V1 (for distribution)" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" visible="0"/>
         </filegroup>
       </legendlayer>
@@ -6541,7 +6541,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/bufferColorB" value="255"/>
         <property key="labeling/bufferColorG" value="255"/>
         <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="true"/>
+        <property key="labeling/bufferDraw" value="false"/>
         <property key="labeling/bufferJoinStyle" value="64"/>
         <property key="labeling/bufferNoFill" value="false"/>
         <property key="labeling/bufferSize" value="1"/>
@@ -6642,7 +6642,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
         <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeDraw" value="true"/>
         <property key="labeling/shapeFillColorA" value="255"/>
         <property key="labeling/shapeFillColorB" value="255"/>
         <property key="labeling/shapeFillColorG" value="255"/>
