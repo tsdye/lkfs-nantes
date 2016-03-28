@@ -18,15 +18,15 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="Ahupua`a">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Ahupua`a">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="hawaii_historic_land_divisions_Features_any20160307205157153" name="hawaii_historic_land_divisions Features any">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="hawaii_historic_land_divisions_Information_Points_any20160307205157443" name="hawaii_historic_land_divisions Information Points any">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hawaii_historic_land_divisions_Information_Points_any20160307205157443" name="hawaii_historic_land_divisions Information Points any">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -99,9 +99,9 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Raster images">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Raster images">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_hs20160314173321931" name="output.tin.hs">
@@ -110,7 +110,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lidar_modified20160309165140445" name="lidar_modified">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20160307151003036" name="Google Satellite">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20160307151003036" name="Google Satellite">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_slp20160314130541609" name="output.tin.slp">
@@ -122,10 +122,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17344860.80058375000953674</xmin>
-      <ymin>2288331.95673939399421215</ymin>
-      <xmax>-17344751.68809694051742554</xmax>
-      <ymax>2288581.01785075943917036</ymax>
+      <xmin>-17344930.83322806283831596</xmin>
+      <ymin>2288281.33751377230510116</ymin>
+      <xmax>-17344546.44293283298611641</xmax>
+      <ymax>2288530.39862513775005937</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -243,20 +243,20 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Checked" name="Ahupua`a">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Ahupua`a">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hawaii_historic_land_divisions Features any" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Features_any20160307205157153" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hawaii_historic_land_divisions Information Points any" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hawaii_historic_land_divisions Information Points any" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Information_Points_any20160307205157443" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Information_Points_any20160307205157443" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -360,9 +360,9 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Raster images">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Zones of pre European contact intensive agriculture V1 (for distribution)" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Raster images">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Zones of pre European contact intensive agriculture V1 (for distribution)" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" visible="0"/>
         </filegroup>
       </legendlayer>
@@ -376,9 +376,9 @@
           <legendlayerfile isInOverview="0" layerid="lidar_modified20160309165140445" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Satellite" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Satellite" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20160307151003036" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20160307151003036" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="output.tin.slp" showFeatureCount="0">
@@ -1089,13 +1089,13 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 attr="type_of_ag" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
         <categories>
-          <category render="false" symbol="0" value="irrigated wetland" label="irrigated wetland"/>
+          <category render="true" symbol="0" value="irrigated wetland" label="irrigated wetland"/>
           <category render="false" symbol="1" value="irrigated wetland and rain-fed dryland" label="irrigated wetland and rain-fed dryland"/>
           <category render="true" symbol="2" value="rain-fed dryland" label="rain-fed dryland"/>
           <category render="false" symbol="3" value="" label=""/>
         </categories>
         <symbols>
-          <symbol alpha="0.309804" clip_to_extent="1" type="fill" name="0">
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="165,191,221,255"/>
@@ -1125,7 +1125,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="style" v="solid"/>
             </layer>
           </symbol>
-          <symbol alpha="0.203922" clip_to_extent="1" type="fill" name="2">
+          <symbol alpha="0.505882" clip_to_extent="1" type="fill" name="2">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="255,255,255,255"/>
@@ -5596,7 +5596,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>relations20160307213557621</id>
       <datasource>dbname='./lkfs.sqlite' table="relations" (geometry) sql=</datasource>
       <shortname>relations</shortname>
@@ -5657,7 +5657,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="2.6"/>
+              <prop k="size" v="2.2"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -5676,7 +5676,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="0.541667"/>
+              <prop k="size" v="0.458333"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -5864,7 +5864,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
@@ -6181,7 +6181,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>trails20160307213407061</id>
       <datasource>dbname='./lkfs.sqlite' table="trails" (geometry) sql=</datasource>
       <shortname>trails</shortname>
@@ -6425,7 +6425,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
