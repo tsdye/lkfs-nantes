@@ -14,7 +14,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="trails20160307213407061" name="trails">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="walls20160307213445620" name="walls">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="walls20160307213445620" name="walls">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="study_area20160318093015829" name="study_area">
@@ -107,7 +107,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_hs20160314173321931" name="output.tin.hs">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="output_tin_hs20160314173321931" name="output.tin.hs">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lidar_modified20160309165140445" name="lidar_modified">
@@ -125,10 +125,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17343459.72949559614062309</xmin>
-      <ymin>2288418.333807154558599</ymin>
-      <xmax>-17342796.68366159126162529</xmax>
-      <ymax>2288562.79630730208009481</ymax>
+      <xmin>-17343677.84393009915947914</xmin>
+      <ymin>2288220.38547573331743479</ymin>
+      <xmax>-17343292.96337414905428886</xmax>
+      <ymax>2288294.45299923606216908</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -242,8 +242,8 @@
           <legendlayerfile isInOverview="0" layerid="trails20160307213407061" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="walls" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="walls" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="walls20160307213445620" visible="1"/>
         </filegroup>
       </legendlayer>
@@ -376,9 +376,9 @@
           <legendlayerfile isInOverview="0" layerid="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="output.tin.hs" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="output.tin.hs" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lidar_modified" showFeatureCount="0">
@@ -7100,9 +7100,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="43,131,186,255"/>
+              <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.66"/>
+              <prop k="line_width" v="0.46"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
