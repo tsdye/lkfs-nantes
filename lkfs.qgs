@@ -5,10 +5,10 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Tom's project">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="relations20160307213557621" name="relations">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="relations20160307213557621" name="relations">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="levels20160401092110026" name="levels">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="levels20160401092110026" name="levels">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="trails20160307213407061" name="trails">
@@ -21,15 +21,15 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="Ahupua`a">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Ahupua`a">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="hawaii_historic_land_divisions_Features_any20160307205157153" name="hawaii_historic_land_divisions Features any">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hawaii_historic_land_divisions_Features_any20160307205157153" name="hawaii_historic_land_divisions Features any">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="hawaii_historic_land_divisions_Information_Points_any20160307205157443" name="hawaii_historic_land_divisions Information Points any">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hawaii_historic_land_divisions_Information_Points_any20160307205157443" name="hawaii_historic_land_divisions Information Points any">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -107,7 +107,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="output_tin_hs20160314173321931" name="output.tin.hs">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_hs20160314173321931" name="output.tin.hs">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lidar_modified20160309165140445" name="lidar_modified">
@@ -125,10 +125,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17344983.53600019589066505</xmin>
-      <ymin>2286931.35311266407370567</ymin>
-      <xmax>-17344598.65544424578547478</xmax>
-      <ymax>2287135.01701139472424984</ymax>
+      <xmin>-17346980.76682398095726967</xmin>
+      <ymin>2286775.33777625532820821</ymin>
+      <xmax>-17343013.65399555489420891</xmax>
+      <ymax>2290323.44801728194579482</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -227,14 +227,14 @@
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Tom's project">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="relations" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="relations" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="relations20160307213557621" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="relations20160307213557621" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="levels" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="levels" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="levels20160401092110026" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="levels20160401092110026" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="trails" showFeatureCount="0">
@@ -253,20 +253,20 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Checked" name="Ahupua`a">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hawaii_historic_land_divisions Features any" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Ahupua`a">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hawaii_historic_land_divisions Features any" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Features_any20160307205157153" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Features_any20160307205157153" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hawaii_historic_land_divisions Information Points any" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hawaii_historic_land_divisions Information Points any" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Information_Points_any20160307205157443" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Information_Points_any20160307205157443" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -376,9 +376,9 @@
           <legendlayerfile isInOverview="0" layerid="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="output.tin.hs" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="output.tin.hs" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lidar_modified" showFeatureCount="0">
@@ -398,6 +398,49 @@
       </legendlayer>
     </legendgroup>
   </legend>
+  <Composer title="test-lkfs" visible="0">
+    <Composition resizeToContentsMarginLeft="5.599999999999996" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="279.4" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="215.9" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="24.6859" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="750" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="m">
+        <scaleBarFont description=".Lucida Grande UI,12,-1,5,50,0,0,0,0,0" style=""/>
+        <fillColor alpha="255" red="0" blue="0" green="0"/>
+        <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+        <strokeColor alpha="255" red="0" blue="0" green="0"/>
+        <textColor alpha="255" red="0" blue="0" green="0"/>
+        <ComposerItem pagey="188.76" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="136.431" y="188.76" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="140.569" outlineWidth="0.3" excludeFromExports="0" uuid="{f544d137-ac31-435e-8266-d289b0faef2a}" height="20" itemRotation="0" frame="false" pagex="136.431">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerScaleBar>
+      <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="2285463.64328074268996716" xmin="-17350186.88285847380757332" ymax="2292384.48497504042461514" xmax="-17341228.59711398556828499"/>
+        <LayerSet/>
+        <Grid/>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="2.10216" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="277" outlineWidth="0.3" excludeFromExports="0" uuid="{9b1e983c-d681-4c86-be6c-71eced4acdea}" height="214" itemRotation="0" frame="false" pagex="0">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <customproperties/>
+    </Composition>
+  </Composer>
   <projectlayers>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>FieldSystem_9_Index_any20160322110959496</id>
@@ -5587,7 +5630,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>output_tin_hs20160314173321931</id>
       <datasource>../map/viz-2/output.tin.hs.tif</datasource>
       <shortname>output.tin.hs</shortname>
@@ -5620,11 +5663,11 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
           <contrastEnhancement>
             <minValue>1</minValue>
-            <maxValue>224</maxValue>
+            <maxValue>225</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
         </rasterrenderer>
@@ -7322,8 +7365,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/drawLabels" value="true"/>
-        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
         <property key="labeling/fieldName" value="label"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
