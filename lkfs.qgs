@@ -107,7 +107,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="output_tin_hs20160314173321931" name="output.tin.hs">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_hs20160314173321931" name="output.tin.hs">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lidar_modified20160309165140445" name="lidar_modified">
@@ -125,10 +125,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17346538.03323293849825859</xmin>
-      <ymin>2288310.8352910946123302</ymin>
-      <xmax>-17346004.22317750379443169</xmax>
-      <ymax>2288600.3265795991756022</ymax>
+      <xmin>-17345418.71260257810354233</xmin>
+      <ymin>2289073.10903129912912846</ymin>
+      <xmax>-17344959.37185580283403397</xmax>
+      <ymax>2289221.42845050245523453</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -376,9 +376,9 @@
           <legendlayerfile isInOverview="0" layerid="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="output.tin.hs" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="output.tin.hs" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lidar_modified" showFeatureCount="0">
