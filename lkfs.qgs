@@ -5,16 +5,16 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Tom's project">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="relations20160307213557621" name="relations">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="relations20160307213557621" name="relations">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="levels20160401092110026" name="levels">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="trails20160307213407061" name="trails">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="trails20160307213407061" name="trails">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="walls20160307213445620" name="walls">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="walls20160307213445620" name="walls">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="study_area20160318093015829" name="study_area">
@@ -107,7 +107,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_hs20160314173321931" name="output.tin.hs">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="output_tin_hs20160314173321931" name="output.tin.hs">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lidar_modified20160309165140445" name="lidar_modified">
@@ -125,10 +125,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17346980.76682398095726967</xmin>
-      <ymin>2286775.33777625532820821</ymin>
-      <xmax>-17343013.65399555489420891</xmax>
-      <ymax>2290323.44801728194579482</ymax>
+      <xmin>-17346538.03323293849825859</xmin>
+      <ymin>2288310.8352910946123302</ymin>
+      <xmax>-17346004.22317750379443169</xmax>
+      <ymax>2288600.3265795991756022</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -227,9 +227,9 @@
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Tom's project">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="relations" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="relations" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="relations20160307213557621" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="relations20160307213557621" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="levels" showFeatureCount="0">
@@ -237,14 +237,14 @@
           <legendlayerfile isInOverview="0" layerid="levels20160401092110026" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="trails" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="trails" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="trails20160307213407061" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="walls" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="walls" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="walls20160307213445620" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="walls20160307213445620" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="study_area" showFeatureCount="0">
@@ -376,9 +376,9 @@
           <legendlayerfile isInOverview="0" layerid="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="output.tin.hs" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="output.tin.hs" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lidar_modified" showFeatureCount="0">
@@ -6786,8 +6786,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="label"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
@@ -7412,8 +7412,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="label"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
