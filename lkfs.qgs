@@ -5,25 +5,25 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Tom's project">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="relations20160307213557621" name="relations">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="relations20160307213557621" name="relations">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="levels20160401092110026" name="levels">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="trails20160307213407061" name="trails">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="trails20160307213407061" name="trails">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="walls20160307213445620" name="walls">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="walls20160307213445620" name="walls">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="study_area20160318093015829" name="study_area">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Ahupua`a">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Ahupua`a">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hawaii_historic_land_divisions_Features_any20160307205157153" name="hawaii_historic_land_divisions Features any">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="hawaii_historic_land_divisions_Features_any20160307205157153" name="hawaii_historic_land_divisions Features any">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="hawaii_historic_land_divisions_Feature_Labels__Land_Name__any20160307205157300" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any">
@@ -107,13 +107,13 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="output_tin_hs20160314173321931" name="output.tin.hs">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_hs20160314173321931" name="output.tin.hs">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lidar_modified20160309165140445" name="lidar_modified">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20160307151003036" name="Google Satellite">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20160307151003036" name="Google Satellite">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_slp20160314130541609" name="output.tin.slp">
@@ -125,10 +125,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17345900.3353738971054554</xmin>
-      <ymin>2288620.63693680614233017</ymin>
-      <xmax>-17345515.45481794700026512</xmax>
-      <ymax>2288869.69804817251861095</ymax>
+      <xmin>-17346980.76682398095726967</xmin>
+      <ymin>2286775.33777625532820821</ymin>
+      <xmax>-17343013.65399555489420891</xmax>
+      <ymax>2290323.44801728194579482</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -227,9 +227,9 @@
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Tom's project">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="relations" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="relations" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="relations20160307213557621" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="relations20160307213557621" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="levels" showFeatureCount="0">
@@ -237,14 +237,14 @@
           <legendlayerfile isInOverview="0" layerid="levels20160401092110026" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="trails" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="trails" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="trails20160307213407061" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="walls" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="walls" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="walls20160307213445620" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="walls20160307213445620" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="study_area" showFeatureCount="0">
@@ -253,10 +253,10 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Ahupua`a">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hawaii_historic_land_divisions Features any" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Ahupua`a">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hawaii_historic_land_divisions Features any" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Features_any20160307205157153" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="hawaii_historic_land_divisions_Features_any20160307205157153" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hawaii_historic_land_divisions Feature Labels (Land_Name) any" showFeatureCount="0">
@@ -376,9 +376,9 @@
           <legendlayerfile isInOverview="0" layerid="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="output.tin.hs" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="output.tin.hs" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lidar_modified" showFeatureCount="0">
@@ -386,9 +386,9 @@
           <legendlayerfile isInOverview="0" layerid="lidar_modified20160309165140445" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Satellite" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Satellite" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20160307151003036" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20160307151003036" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="output.tin.slp" showFeatureCount="0">
@@ -421,7 +421,7 @@
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="188.76" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="136.431" y="188.76" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="140.569" outlineWidth="0.3" excludeFromExports="0" uuid="{f544d137-ac31-435e-8266-d289b0faef2a}" height="20" itemRotation="0" frame="false" pagex="136.431">
+        <ComposerItem pagey="188.76" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="136.431" y="188.76" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="140.569" outlineWidth="0.3" excludeFromExports="0" uuid="{f544d137-ac31-435e-8266-d289b0faef2a}" height="20" itemRotation="0" frame="false" pagex="136.431">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -431,8 +431,55 @@
         <Extent ymin="2285463.64328074268996716" xmin="-17350186.88285847380757332" ymax="2292384.48497504042461514" xmax="-17341228.59711398556828499"/>
         <LayerSet/>
         <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{400859ea-8d25-47b0-b628-66741caf2db6}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="2.10216" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="277" outlineWidth="0.3" excludeFromExports="0" uuid="{9b1e983c-d681-4c86-be6c-71eced4acdea}" height="214" itemRotation="0" frame="false" pagex="0">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="2.10216" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="277" outlineWidth="0.3" excludeFromExports="0" uuid="{9b1e983c-d681-4c86-be6c-71eced4acdea}" height="214" itemRotation="0" frame="false" pagex="0">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1582,7 +1629,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>hawaii_historic_land_divisions_Features_any20160307205157153</id>
       <datasource>../../anth_464/figures/hawaii_historic_land_divisions.kmz|layername=Features</datasource>
       <shortname>hawaii_historic_land_divisions Features any</shortname>
@@ -1825,7 +1872,7 @@ def my_form_open(dialog, layer, feature):
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
+      <layerTransparency>50</layerTransparency>
       <displayfield>Name</displayfield>
       <label>0</label>
       <labelattributes>
@@ -1849,7 +1896,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -6376,7 +6423,7 @@ def my_form_open(dialog, layer, feature):
           <category render="true" symbol="15" value="" label=""/>
         </categories>
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+          <symbol alpha="0.494118" clip_to_extent="1" type="line" name="0">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -6739,8 +6786,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/drawLabels" value="true"/>
-        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
         <property key="labeling/fieldName" value="label"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
@@ -7365,8 +7412,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/drawLabels" value="true"/>
-        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
         <property key="labeling/fieldName" value="label"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
