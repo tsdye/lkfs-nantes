@@ -33,7 +33,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Eric's field system kmz files">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Eric's field system kmz files">
       <customproperties/>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Lapakahi">
         <customproperties/>
@@ -59,7 +59,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Kahua">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Kahua">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="kahua_dsa_final_revision20131230_walls_level_2_any20160307204412380" name="kahua-dsa-final_revision20131230 walls_level_2 any">
           <customproperties/>
@@ -107,7 +107,7 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" name="Zones of pre European contact intensive agriculture V1 (for distribution)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="output_tin_hs20160314173321931" name="output.tin.hs">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="output_tin_hs20160314173321931" name="output.tin.hs">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lidar_modified20160309165140445" name="lidar_modified">
@@ -125,10 +125,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-17346052.83478530868887901</xmin>
-      <ymin>2289035.11433356162160635</ymin>
-      <xmax>-17345791.12015819177031517</xmax>
-      <ymax>2289113.20576043147593737</ymax>
+      <xmin>-17346065.63850657641887665</xmin>
+      <ymin>2288963.3939546006731689</ymin>
+      <xmax>-17345680.75795062631368637</xmax>
+      <ymax>2289212.45506596611812711</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -270,7 +270,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Eric's field system kmz files">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Eric's field system kmz files">
       <legendgroup open="false" checked="Qt::Unchecked" name="Lapakahi">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="lapakahi_dsa_final trails_level_1 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
@@ -308,7 +308,7 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Kahua">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Kahua">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="kahua-dsa-final_revision20131230 walls_level_2 any" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="kahua_dsa_final_revision20131230_walls_level_2_any20160307204412380" visible="0"/>
@@ -376,9 +376,9 @@
           <legendlayerfile isInOverview="0" layerid="Zones_of_pre_European_contact_intensive_agriculture_V1__for_distribution_20160322112215209" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="output.tin.hs" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="output.tin.hs" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="output_tin_hs20160314173321931" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="lidar_modified" showFeatureCount="0">
